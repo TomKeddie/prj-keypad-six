@@ -1,14 +1,21 @@
 /* #include <SPI.h> */
 
+#ifdef SPI_FLASH
 #include <SPIMemory.h>
+#endif
 
 #include "keypad-six.h"
 
-SPIFlash flash(PIN_FLASH_CS_N);    
+void lcd_init(void);
 
-static char printBuffer[128];
+
+#ifdef SPI_FLASH
+SPIFlash flash(PIN_FLASH_CS_N);
+#endif
 
 void setup() {
+    lcd_init();
+
     Serial.begin(9600);
     while (!Serial);
     Serial.println(__FILE__);
@@ -22,11 +29,10 @@ void setup() {
     pinMode(PIN_SW2_KEY6, INPUT_PULLUP);
     pinMode(PIN_SW1_UP,   INPUT_PULLUP);
 
-    digitalWrite(PIN_BACKLIGHT, 0);
-    pinMode(PIN_BACKLIGHT, OUTPUT);
-
+#ifdef SPI_FLASH
     flash.begin();
     uint32_t JEDEC = flash.getJEDECID();
+    static char printBuffer[128];
     sprintf(printBuffer,
             "Flash\r\n"
             "  Manufacturer ID: 0x%02x\r\n"
@@ -36,6 +42,7 @@ void setup() {
             (uint8_t) (0xff & (JEDEC >> 8)),
             (uint8_t) (0xff & (JEDEC >> 0)));
     Serial.print(printBuffer);
+#endif
 }
 
 void loop() {

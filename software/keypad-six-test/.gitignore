@@ -1,2 +1,4 @@
 build/
+output/
 keypad-six-test.ino.d 
+compile.cli.log

@@ -1,8 +1,10 @@
+/* #include <SPI.h> */
+
 #include <SPIMemory.h>
 
 #include "keypad-six.h"
 
-static SPIFlash flash(PIN_FLASH_CS);
+SPIFlash flash(PIN_FLASH_CS_N);    
 
 static char printBuffer[128];
 
@@ -19,36 +21,17 @@ void setup() {
     pinMode(PIN_SW2_KEY6, INPUT_PULLUP);
     pinMode(PIN_SW1_UP,   INPUT_PULLUP);
 
-    Serial.println(__FILE__);
-
     flash.begin();
-
-    while(1) {
-        bool delay_required = false;
-        if (digitalRead(PIN_SW2_KEY6) == LOW) {
-            delay_required = true;
-            Serial.println("Flash");
-            uint8_t b1, b2, b3;
-            uint32_t JEDEC = flash.getJEDECID();
-            b1 = (JEDEC >> 16);
-            b2 = (JEDEC >> 8);
-            b3 = (JEDEC >> 0);
-            memset(printBuffer, '\0', sizeof(printBuffer));
-            snprintf(printBuffer, sizeof(printBuffer), " Manufacturer ID: %02xh\r\n Memory Type: %02xh\r\n Capacity: %02xh", b1, b2, b3);
-            Serial.println(printBuffer);
-            memset(printBuffer, '\0', sizeof(printBuffer));
-            snprintf(printBuffer, sizeof(printBuffer), " JEDEC ID: %04lxh", JEDEC);
-            Serial.println(printBuffer);
-            uint32_t ManID = flash.getManID();
-            memset(printBuffer, '\0', sizeof(printBuffer));
-            snprintf(printBuffer, sizeof(printBuffer), " MAN ID: %04lxh", ManID);
-            Serial.println(printBuffer);
-        }
-        
-        if (delay_required) {
-            delay(500);
-        }
-    }
+    uint32_t JEDEC = flash.getJEDECID();
+    sprintf(printBuffer,
+            "Flash\r\n"
+            "  Manufacturer ID: 0x%02x\r\n"
+            "  Memory Type:     0x%02x\r\n"
+            "  Capacity:        0x%02x\r\n",
+            (uint8_t) (0xff & (JEDEC >> 16)),
+            (uint8_t) (0xff & (JEDEC >> 8)),
+            (uint8_t) (0xff & (JEDEC >> 0)));
+    Serial.print(printBuffer);
 }
 
 void loop() {

@@ -11,6 +11,7 @@ static char printBuffer[128];
 void setup() {
     Serial.begin(9600);
     while (!Serial);
+    Serial.println(__FILE__);
 
     pinMode(PIN_SW8_DOWN, INPUT_PULLUP);
     pinMode(PIN_SW7_KEY1, INPUT_PULLUP);
@@ -20,6 +21,9 @@ void setup() {
     pinMode(PIN_SW3_KEY5, INPUT_PULLUP);
     pinMode(PIN_SW2_KEY6, INPUT_PULLUP);
     pinMode(PIN_SW1_UP,   INPUT_PULLUP);
+
+    digitalWrite(PIN_BACKLIGHT, 0);
+    pinMode(PIN_BACKLIGHT, OUTPUT);
 
     flash.begin();
     uint32_t JEDEC = flash.getJEDECID();

@@ -191,7 +191,6 @@ static void pin_init(void) {
 }
 
 static void st7735_black(void) {
-    digitalWrite(PIN_LCD_CS7_N, 0);
     set_write_region(0, 0, lcd_x_size-1, lcd_y_size-1);
     digitalWrite(ST7735_DC_PIN, 1);
     for (uint8_t iy=0; iy < lcd_y_size; iy++) {
@@ -200,11 +199,9 @@ static void st7735_black(void) {
             SPI.transfer(data, sizeof(data));
         }
     }
-    digitalWrite(PIN_LCD_CS7_N, 1);
 }
 
 static void st7735_test(void) {
-    digitalWrite(PIN_LCD_CS7_N, 0);
     set_write_region(0, 0, lcd_x_size-1, lcd_y_size-1);
     digitalWrite(ST7735_DC_PIN, 1);
     for (uint8_t iy=0; iy < lcd_y_size; iy++) {
@@ -213,7 +210,6 @@ static void st7735_test(void) {
             SPI.transfer(data, sizeof(data));
         }
     }
-    digitalWrite(PIN_LCD_CS7_N, 1);
 }
 
 void lcd_init(void) {
@@ -223,6 +219,11 @@ void lcd_init(void) {
 
     SPI.begin();
     SPI.beginTransaction(SPISettings(16000000, MSBFIRST, SPI_MODE0));
+    digitalWrite(PIN_LCD_CS2_N, 0);
+    digitalWrite(PIN_LCD_CS3_N, 0);
+    digitalWrite(PIN_LCD_CS4_N, 0);
+    digitalWrite(PIN_LCD_CS5_N, 0);
+    digitalWrite(PIN_LCD_CS6_N, 0);
     digitalWrite(PIN_LCD_CS7_N, 0);
 
     st7735_init();
@@ -230,6 +231,11 @@ void lcd_init(void) {
     st7735_test();
     
 
+    digitalWrite(PIN_LCD_CS2_N, 1);
+    digitalWrite(PIN_LCD_CS3_N, 1);
+    digitalWrite(PIN_LCD_CS4_N, 1);
+    digitalWrite(PIN_LCD_CS5_N, 1);
+    digitalWrite(PIN_LCD_CS6_N, 1);
     digitalWrite(PIN_LCD_CS7_N, 1);
     SPI.endTransaction();
 }

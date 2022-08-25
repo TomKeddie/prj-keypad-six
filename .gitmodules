@@ -1,3 +1,3 @@
 [submodule "pcbs/keypad-base/keyboardio-kicad-libraries"]
-	path = hardware/keypad-base/keyboardio-kicad-libraries
+	path = hardware/keyboardio-kicad-libraries
 	url = git@github.com:keyboardio/keyboardio-kicad-libraries.git

@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name "tom-connectors")(type "KiCad")(uri "${KIPRJMOD}/../../../prj-kicad-libs/connectors/tom-connectors.pretty")(options "")(descr ""))
+  (lib (name "tom-mechanical")(type "KiCad")(uri "${KIPRJMOD}/../../../prj-kicad-libs/mechanical/tom-mechanical.pretty")(options "")(descr ""))
+  (lib (name "tom-modules")(type "KiCad")(uri "${KIPRJMOD}/../../../prj-kicad-libs/modules/tom-modules.pretty")(options "")(descr ""))
+  (lib (name "tom-opto")(type "KiCad")(uri "${KIPRJMOD}/../../../prj-kicad-libs/opto/tom-opto.pretty")(options "")(descr ""))
+  (lib (name "tom-passives")(type "KiCad")(uri "${KIPRJMOD}/../../../prj-kicad-libs/passives/tom-passives.pretty")(options "")(descr ""))
+  (lib (name "tom-semiconductors")(type "KiCad")(uri "${KIPRJMOD}/../../../prj-kicad-libs/semiconductors/tom-semiconductors.pretty")(options "")(descr ""))
+  (lib (name "keyboardio")(type "KiCad")(uri "${KIPRJMOD}/../keyboardio-kicad-libraries/modules/keyboardio.pretty")(options "")(descr ""))
+  (lib (name "keypad-base")(type "KiCad")(uri "${KIPRJMOD}/../keypad-base.pretty")(options "")(descr ""))
+)

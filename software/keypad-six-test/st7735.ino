@@ -206,7 +206,35 @@ static void st7735_test(void) {
     digitalWrite(ST7735_DC_PIN, 1);
     for (uint8_t iy=0; iy < lcd_y_size; iy++) {
         for (uint8_t ix=0; ix < lcd_x_size; ix++) {
-            uint8_t data[2] = { (ix == (iy % lcd_x_size)) ? 0xff : 00, (ix == (iy % lcd_x_size)) ? 0xff : 00 };
+            uint16_t red = 0;
+            uint16_t green = 0;
+            uint16_t blue = 0;
+
+            if (iy < lcd_y_size/8) {
+                red = 0x1f;
+            } else if (iy < 2*lcd_y_size/8) {
+                blue = 0x1f;
+            } else if (iy < 3*lcd_y_size/8) {
+                green = 0x3f;
+            } else if (iy < 4*lcd_y_size/8) {
+                red = 0x1f;
+                blue = 0x1f;
+                green = 0x3f;
+            } else if (iy < 5*lcd_y_size/8) {
+                red = 0x1f * ix / (lcd_x_size - 1);
+            } else if (iy < 6*lcd_y_size/8) {
+                blue = 0x1f * ix / (lcd_x_size - 1);
+            } else if (iy < 7*lcd_y_size/8) {
+                green = 0x3f * ix / (lcd_x_size - 1);
+            } else {
+                red = 0x1f * ix / (lcd_x_size - 1);
+                blue = 0x1f * ix / (lcd_x_size - 1);
+                green = 0x3f * ix / (lcd_x_size - 1);
+            }
+
+            uint16_t colour = ((blue & 0x1f) << 11) | ((green & 0x3f) << 5) | (red & 0x1f);
+            Serial.println(colour, HEX);
+            uint8_t data[2] = { colour >> 8, colour & 0xff };
             SPI.transfer(data, sizeof(data));
         }
     }

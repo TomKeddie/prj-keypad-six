@@ -1,641 +1,4 @@
-475176816520867
-keyboardio
-1pin
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-1
-1
-keyboardio
-4P-2.0-left
-3470130P1
-
-0
-4
-4
-keyboardio
-4P-2.0-no-outline
-3470130P1
-
-0
-4
-4
-keyboardio
-445C33E12M00000
-
-
-0
-2
-2
-keyboardio
-431183008816
-SMD 2x-dip-switch SPST Copal_CHS-02A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
-SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
-0
-4
-4
-keyboardio
-ABM3_Crystal_Oscillator
-
-
-0
-2
-2
-keyboardio
-ALPS_100H
-
-
-0
-5
-3
-keyboardio
-ALPS_100H_LED_BOX
-
-
-0
-2
-2
-keyboardio
-ALPS_100H_round_holes
-
-
-0
-2
-2
-keyboardio
-ALPS_125H
-
-
-0
-9
-3
-keyboardio
-ALPS_150H
-
-
-0
-9
-3
-keyboardio
-ALPS_175H
-
-
-0
-9
-3
-keyboardio
-ALPS_200H
-
-
-0
-9
-3
-keyboardio
-APA102C
-
-
-0
-6
-6
-keyboardio
-ATSAM4S4CA-AU
-
-
-0
-100
-100
-keyboardio
-AVX-B
-
-
-0
-2
-2
-keyboardio
-CONN_2mm_40pin
-
-
-0
-40
-40
-keyboardio
-CONN_JST-2_SMD
-
-JST
-0
-4
-2
-keyboardio
-CPG1511F01S05
-MX_PCB
-MX_PCB
-0
-2
-2
-keyboardio
-CP_EIA-3216-10_Kemet-I
-Tantalum Capacitor SMD Kemet-I (3216-10 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
-capacitor tantalum
-0
-2
-2
-keyboardio
-C_0402_1005Metric-Keyboardio
-Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-keyboardio
-DIODE
-
-
-0
-2
-2
-keyboardio
-DX07B024JJ3
-
-
-0
-30
-25
-keyboardio
-D_SOD-123
-SOD-123
-SOD-123
-0
-2
-2
-keyboardio
-Diode-MiniMELF_Handsoldering-kbio
-Diode Mini-MELF Handsoldering
-Diode Mini-MELF Handsoldering
-0
-2
-2
-keyboardio
-IS31FL3741
-
-
-0
-68
-61
-keyboardio
-IS31FL3743B-UQFN-40_EP_5x5_Pitch0.4mm
-
-
-0
-72
-41
-keyboardio
-Kailh-CPG1232
-
-
-0
-2
-2
-keyboardio
-Kailh-CPG1280
-
-
-0
-2
-2
-keyboardio
-Kailh-CPG1350
-
-
-0
-2
-2
-keyboardio
-Kailh-CPG1425
-
-
-0
-2
-2
-keyboardio
-Kailh-CPG1511
-Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.00u PCB
-0
-2
-2
-keyboardio
-Kailh-Choc-1x1
-
-
-0
-2
-2
-keyboardio
-Kailh-Choc-Socket-1x1
-
-
-0
-4
-2
-keyboardio
-KailhPG1511-PG1425-PG1350-PG1280,ALPS
-
-
-0
-10
-2
-keyboardio
-KeyboardIO_Logo
-
-
-0
-0
-0
-keyboardio
-LED_RGB_3528
-
-3528 backlight LED
-0
-4
-4
-keyboardio
-LED_RGB_3528_Front
-
-3528 backlight LED
-0
-4
-4
-keyboardio
-Labeled_TestPoint_Pad_2mm
-SMD pad as test Point, diameter 2.0mm
-test point SMD pad
-0
-1
-1
-keyboardio
-M3-screw
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-0
-0
-keyboardio
-MICRO-B_USB
-
-
-0
-11
-9
-keyboardio
-MX-KailhClip-1.00u
-MX_PCB
-MX_PCB
-0
-2
-2
-keyboardio
-MX-KailhClip-1.00u-large-pads
-MX_PCB
-MX_PCB
-0
-4
-2
-keyboardio
-MX-KailhClip-1.00u-no-top-ring
-MX_PCB
-MX_PCB
-0
-6
-2
-keyboardio
-MX-KailhClip-1.25u
-Cherry MX keyswitch, MX1A, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-cherry mx keyswitch MX1A 1.25u PCB
-0
-2
-2
-keyboardio
-MX-KailhClip-1.50u
-Cherry MX keyswitch, MX1A, 1.50u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-cherry mx keyswitch MX1A 1.50u plate
-0
-2
-2
-keyboardio
-MX-KailhClip-1.75u
-Cherry MX keyswitch, MX1A, 1.75u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-cherry mx keyswitch MX1A 1.75u plate
-0
-2
-2
-keyboardio
-MX-KailhClip-2.00u
-Cherry MX keyswitch, MX1A, 2.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-cherry mx keyswitch MX1A 2.00u PCB
-0
-2
-2
-keyboardio
-MX-KailhClip-2.00u-vertical
-Cherry MX keyswitch, MX1A, 2.00u, vertical, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-cherry mx keyswitch MX1A 2.00u vertical PCB
-0
-2
-2
-keyboardio
-MX-KailhClip-2.25u
-Cherry MX keyswitch, MX1A, 2.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-cherry mx keyswitch MX1A 2.25u PCB
-0
-2
-2
-keyboardio
-MX-KailhClip-6.25u
-Cherry MX keyswitch, MX1A, 6.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-cherry mx keyswitch MX1A 6.25u PCB
-0
-2
-2
-keyboardio
-Matias-KS101Q
-
-
-0
-2
-2
-keyboardio
-MicroUSB-FCI_10118193-0001LF_ATTEMPT
-
-
-0
-11
-11
-keyboardio
-Model_01_ICSP
-Through hole pin header
-pin header
-0
-6
-6
-keyboardio
-Model_01_ICSP_cutout_pins
-Through hole pin header
-pin header
-0
-6
-6
-keyboardio
-PJ-3200B-4A
-
-
-0
-4
-4
-keyboardio
-PRTR5V0U2X
-
-
-0
-4
-4
-keyboardio
-Pin_Header_Angled_1x07_backwards_for_right_hand
-Through hole pin header
-pin header
-0
-7
-7
-keyboardio
-QFN-60_EP_6.79x6.79_Pitch0.4mm
-
-
-0
-64
-61
-keyboardio
-QFN-60_EP_7x7_Pitch0.4mm
-
-
-0
-94
-61
-keyboardio
-QFN-UT-28
-
-
-0
-29
-29
-keyboardio
-QFN24
-
-
-0
-30
-25
-keyboardio
-QFN28
-
-
-0
-29
-28
-keyboardio
-QFP50P1600X1600X160-100N
-
-
-0
-100
-100
-keyboardio
-R_0402-Keyboardio
-Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-keyboardio
-SAM4S4C-VFBGA-100_7.0x7.0mm_Layout10x10_P0.65mm
-VFBGA-100, 10x10, 7x7mm package, pitch 0.65mm
-VFBGA-100
-0
-100
-100
-keyboardio
-SMT-0388XX0X-RJ45
-
-
-0
-12
-9
-keyboardio
-SOD-323-kbio
-SOD-323
-SOD-323
-0
-2
-2
-keyboardio
-SOIC-4
-
-
-0
-4
-4
-keyboardio
-SOICbite
-
-
-0
-8
-8
-keyboardio
-SOT230P700X180-3N
-
-
-0
-4
-4
-keyboardio
-SWITCH-TL3315
-
-
-0
-8
-2
-keyboardio
-SW_Cherry_MX-many
-Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.00u PCB
-0
-8
-2
-keyboardio
-SW_Cherry_MX_1.00u_PCB-Centered
-Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.00u PCB
-0
-2
-2
-keyboardio
-SW_Cherry_MX_1.00u_PCB-centered
-Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
-Cherry MX keyswitch 1.00u PCB
-0
-2
-2
-keyboardio
-SW_DIP_SPSTx02_Slide_Copal_CHS-02A_W5.08mm_P1.27mm_JPin
-SMD 2x-dip-switch SPST Copal_CHS-02A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
-SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
-0
-4
-4
-keyboardio
-SW_TACT
-
-
-0
-2
-2
-keyboardio
-S_JUMPER_3
-
-
-0
-3
-3
-keyboardio
-Six_Pin_Test_Point
-
-
-0
-6
-6
-keyboardio
-TC2030-IDC-NL
-Tag Connect small footprint SWD connector ( No Leg version )
-
-0
-6
-6
-keyboardio
-TE204126-1
-
-
-0
-12
-9
-keyboardio
-TQFP-44_10x10mm_Pitch0.8mm-Plus-QFN_44_7x7mm_Pitch_0.5mm
-44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
-QFP 0.8
-0
-104
-45
-keyboardio
-TRJE4711NL-TE204126-1
-
-
-0
-14
-8
-keyboardio
-USB-C--Midmount-Hybrid-TE_2129691-1
-
-
-0
-30
-30
-keyboardio
-USB-TYPE-C-MIDMOUNT
-
-
-0
-30
-25
-keyboardio
-USBC-Hybrid-Midmount-GCT_USB4060-XX-X_REVA
-
-
-0
-28
-28
-keyboardio
-WS2812B
-
-
-0
-4
-4
-keyboardio
-Wurth-632723300011-MaximumExtensionMount.kicad_mod
-
-
-0
-32
-27
-keyboardio
-ZX62D-B-5PA8
-HRS (HIROSE) - ZX62D-B-5PA8 - CONNECTOR FARNELL: 2300438
-
-0
-11
-6
-keyboardio
-ihlp
-Choke, Drossel, WE-PD2, Typ MS, Wuerth, SMD,
-Choke, Drossel, WE-PD2, Typ MS, Wuerth, SMD,
-0
-2
-2
-keyboardio
-pin_array_6x2_linear
-Double rangee de contacts 2 x 6 pins
-CONN
-0
-12
-12
+343046904423098
 keypad-base
 1550Z109
 
@@ -1358,6 +721,13 @@ SW_SPST_SMD_SIDE_7.0x3.5
 4
 3
 tom-mechanical
+SW_SPST_SMD_SIDE_C319395
+
+
+0
+4
+3
+tom-mechanical
 SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
 solder jumper open
@@ -1463,6 +833,20 @@ OSC_SIT8008BI
 4
 4
 tom-modules
+RC2014-ENH
+RC2014 Standard Bus Connector
+Through hole socket strip THT 1x40 2.54mm single row
+0
+40
+40
+tom-modules
+RC2014-STD
+RC2014 Standard Bus Connector
+Through hole socket strip THT 1x40 2.54mm single row
+0
+40
+40
+tom-modules
 TPS82130SILT
 
 
@@ -1540,6 +924,13 @@ diode
 2
 2
 tom-opto
+LED_D5.0mm
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+tom-opto
 LED_RGB_PLCC-6
 RGB LED PLCC-6
 RGB LED PLCC-6
@@ -1585,6 +976,27 @@ tom-passives
 CP_EIA-3528-15_AVX-H
 Tantalum Capacitor SMD AVX-H (3528-15 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
+0
+2
+2
+tom-passives
+CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder
+Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+tom-passives
+CP_MIXED_SMT_PTH_7343_5mm
+Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+4
+2
+tom-passives
+CP_Radial_D10.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
 0
 2
 2
@@ -1680,6 +1092,13 @@ Sunlord SMD Power Inductors – MWSA0518 Series
 2
 2
 tom-passives
+L_Taiyo-Yuden_NR-50xx
+Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-50xx, 4.9mmx4.9mm
+inductor taiyo-yuden nr smd
+0
+2
+2
+tom-passives
 R_0402_1005Metric
 Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 resistor
@@ -1735,6 +1154,13 @@ resistor array
 0
 8
 8
+tom-passives
+R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm
+0
+2
+2
 tom-passives
 R_PACK8_CAT16J8
 
@@ -1834,6 +1260,13 @@ Diode SMC (DO-214AB)
 2
 2
 tom-semiconductors
+D_SOD-323_HandSoldering
+SOD-323
+SOD-323
+0
+2
+2
+tom-semiconductors
 PLCC-28_SMD-Socket
 PLCC, 28 pins, surface mount
 plcc smt
@@ -1890,6 +1323,20 @@ QFP50P900X900X160-48N
 48
 48
 tom-semiconductors
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+tom-semiconductors
+SO-8_3.9x4.9mm_P1.27mm
+SO, 8 Pin (https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
+0
+8
+8
+tom-semiconductors
 SOIC-8_5.23x5.23mm_P1.27mm
 SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
@@ -1931,6 +1378,13 @@ SOT-23-5 hand-soldering
 0
 5
 5
+tom-semiconductors
+SOT-23-6
+SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+6
+6
 tom-semiconductors
 SOT-23-FET-GSD
 SOT-23, Standard
@@ -1987,6 +1441,13 @@ to-92 sc-43 sc-43a sot54 PA33 transistor
 0
 3
 3
+tom-semiconductors
+TQFP-64_10x10mm_P0.5mm
+TQFP, 64 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP
+0
+64
+64
 tom-semiconductors
 VQFN50P600X600X100-36N
 

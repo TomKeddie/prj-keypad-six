@@ -14,8 +14,6 @@ SPIFlash flash(PIN_FLASH_CS_N);
 #endif
 
 void setup() {
-    lcd_init();
-
     Serial.begin(9600);
     while (!Serial);
     Serial.println(__FILE__);
@@ -43,6 +41,7 @@ void setup() {
             (uint8_t) (0xff & (JEDEC >> 0)));
     Serial.print(printBuffer);
 #endif
+    lcd_init();
 }
 
 void loop() {

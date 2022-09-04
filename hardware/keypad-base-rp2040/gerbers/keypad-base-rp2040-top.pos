@@ -1,0 +1,13 @@
+### Module positions - created on Sat 03 Sep 2022 06:03:15 PM ###
+### Printed by Pcbnew version 6.0.7-f9a2dced07~116~ubuntu22.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                              PosX       PosY       Rot  Side
+H1        1550Z109        1550Z109                         166.5000  -160.0000    0.0000  top
+SW1       Switch_SW_Push  MX-KailhClip-1.00u-no-top-ring   119.0000  -100.0000    0.0000  top
+SW2       Switch_SW_Push  MX-KailhClip-1.00u-no-top-ring   138.0000  -100.0000    0.0000  top
+SW3       Switch_SW_Push  MX-KailhClip-1.00u-no-top-ring   157.0000  -100.0000    0.0000  top
+SW4       Switch_SW_Push  MX-KailhClip-1.00u-no-top-ring   176.0000  -100.0000    0.0000  top
+SW5       Switch_SW_Push  MX-KailhClip-1.00u-no-top-ring   195.0000  -100.0000    0.0000  top
+SW6       Switch_SW_Push  MX-KailhClip-1.00u-no-top-ring   214.0000  -100.0000    0.0000  top
+## End
